@@ -20,10 +20,34 @@
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
+  transition: .3s ease-in-out;
+}
+
+.hoverImg {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-image: url(../images/J-Blue.png);
+  opacity: 0.3;
+  transition: .2s ease-in-out;
+  box-shadow: 1px 1px #943434;
 
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
+  background-color: blueviolet;
+  transform: scale(1.5) rotate(20deg);
+  font-size: 20pt;
+  box-shadow: 10px 10px gray;
+}
 
+.hoverImg:hover{
+
+  box-shadow: 1px 1px #943434;
+  opacity: 1;
 }
