@@ -1,0 +1,76 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation */
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-item.active {
+    text-decoration: underline;
+}
+
+/* Jumbotron */
+
+#hero {
+    background-image: url("../images/img-background.png");
+    background-repeat: no-repeat;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    background: none;
+    color: white;
+}
+
+.jumbotron span {
+    font-weight: 700;
+}
+
+/* Cards */
+
+.adventureHeading {
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.adventureHeading span {
+    color: #ffa300;
+    display: block;
+    font-size: 16px;
+}
+
+.adventureCard .card{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: none;
+}
+
+.btn-primary {
+    background-color: #ffa300;
+    border: 1px solid #ffa300;
+}
+
+.bookFlight {
+    background-image: url("../images/img-book-flight.png");
+}
+
+.makeReservation {
+    background-image: url("../images/img-make-reservation.png");
+}
+
+.planTrip {
+    background-image: url("../images/img-plan-trip.png");
+}
